@@ -1,10 +1,10 @@
 # Screenshots
 
-![upload](Screenshots/uploadPicture1.jpg)
+![upload](Screenshots/uploadPicture1.png)
 
-![upload](Screenshots/uploadPicture2.jpg)
+![upload](Screenshots/uploadPicture2.png)
 
-![notification](Screenshots/notification1.jpg)
+![notification](Screenshots/notification1.png)
 
-![notification](Screenshots/notification2.jpg)
+![notification](Screenshots/notification2.png)
 
