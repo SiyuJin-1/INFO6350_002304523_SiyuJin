@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="ToDoList-2024-Winter">
+  <meta name="robots" content="noindex" />
+
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <meta property="og:title" content="ToDoList-2024-Winter" />
+  <meta property="og:description" content="Built with FlutterFlow." />
+  <meta property="og:image" content="https://storage.googleapis.com/flutterflow-prod-hosting/og_splash_gradient.png" />
+  <meta name="twitter:title" content="ToDoList-2024-Winter" />
+  <meta name="twitter:description" content="Built with FlutterFlow." />
+  <meta name="twitter:image" content="https://storage.googleapis.com/flutterflow-prod-hosting/og_splash_gradient.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title>ToDoList-2024-Winter</title>
+  <meta name="description" content="Built with FlutterFlow." />
+
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f1f4f8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1d2428">
+
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Google Maps for web -->
+  <meta name="google_maps_api_key" content="YOUR_WEB_API_KEY" />
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_WEB_API_KEY&libraries=places"></script>
+
+  <!-- ✅ 必须：在 loadEntrypoint 之前定义 -->
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+
+  <!-- Flutter init -->
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+<script>
+  window.addEventListener('load', function () {
+    _flutter.loader.loadEntrypoint({
+      entrypointUrl: 'main.dart.js',
+      serviceWorker: {
+        serviceWorkerUrl: 'flutter_service_worker.js?v=',
+        serviceWorkerVersion: serviceWorkerVersion,
+      },
+      onEntrypointLoaded: async function(engineInitializer) {
+        let appRunner = await engineInitializer.initializeEngine({});
+        await appRunner.runApp();
+      }
+    });
+  });
+</script>
+</body>
+</html>
