@@ -1,0 +1,2 @@
+/Users/jsy/StudioProjects/to_do_list_2024_winter/android/app/.cxx/debug/73c181s3/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/jsy/StudioProjects/to_do_list_2024_winter/android/app/.cxx/debug/73c181s3/armeabi-v7a/CMakeFiles/rebuild_cache.dir

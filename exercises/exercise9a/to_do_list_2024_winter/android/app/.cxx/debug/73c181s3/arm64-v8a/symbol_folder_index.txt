@@ -1,0 +1,1 @@
+/Users/jsy/StudioProjects/to_do_list_2024_winter/android/app/build/intermediates/cxx/debug/73c181s3/obj/arm64-v8a

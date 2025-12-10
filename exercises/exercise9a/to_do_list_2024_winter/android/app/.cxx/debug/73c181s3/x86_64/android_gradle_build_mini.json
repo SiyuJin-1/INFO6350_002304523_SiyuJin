@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/jsy/dev/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/jsy/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/Users/jsy/StudioProjects/to_do_list_2024_winter/android/app/.cxx/debug/73c181s3/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/jsy/Library/Android/sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/Users/jsy/StudioProjects/to_do_list_2024_winter/android/app/.cxx/debug/73c181s3/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
